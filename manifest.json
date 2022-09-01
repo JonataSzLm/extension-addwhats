@@ -1,0 +1,13 @@
+{
+    "name": "AddWhats",
+    "description": "Converse em seu whatsapp web sem precisar adicionar o contato",
+    "version": "1.0",
+    "icons": {
+      "128": "icon128.png"
+    },
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "index.html"
+    }
+}
