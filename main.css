@@ -1,6 +1,6 @@
 main {
     min-width: 400px;
-    max-width: 600px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -16,13 +16,18 @@ header {
     color: white;
 }
 
+.logo {
+    margin-top: 20px;
+    width: 80px;
+}
+
 h1 {
     font-size: 1.8em;
 }
 
 form {
-    margin: 50px;
-    width: 400px;
+    margin: 20px;
+    width: 300px;
 }
 
 label {
